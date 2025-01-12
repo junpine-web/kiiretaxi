@@ -1,0 +1,288 @@
+@charset "utf-8";
+li{
+    list-style-type: none;
+}
+body{
+    font-family: "ヒラギノ明朝 Pro W3", "ＭＳ Ｐ明朝", "MS PMincho", "Hiragino Mincho Pro", serif;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 40px;
+    margin: 0;
+}
+i{
+    font-style: normal;
+    font-size: 30px;
+}
+#top{
+    width: 1500;
+    height: 720;
+    margin-bottom: 35px;
+}
+#mainPhoto{
+    width: 100%;
+    height: auto;
+}
+#mainPhoto img{
+    width: 100%;
+    height: auto;
+}
+.navbox{
+  background-color: #FFF;
+  display: block;
+  height: 78px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbox img{
+    width: 400px;
+    height: auto;
+}
+.navbox ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+header div .navbox div{
+  display: block;
+  width: 1026px;
+  height: 78px;
+  /* position: relative; */
+  margin-right: auto;
+  margin-left: auto;
+}
+header div .navbox div h2{
+    height: 119px;
+  width: 121px;
+  /* position: absolute; */
+  /* left: 0px;
+  top: -73px; */
+}
+header div .navbox nav ul{
+  height: 14px;
+  width: 800px;
+  display: block;
+  /* position: absolute;
+  left: 185px;
+  bottom: 0px; */
+  font-size: 24px;
+}
+nav li a{
+    color: #000000;
+    font-size: 30px;
+}
+#button{
+    color: #ffffff;
+    background-color: #07365b;
+    display: block;
+    padding: 10px;
+}
+#main{
+    text-align: center;
+}
+.service{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.service h2{
+    font-size: 2.5rem;
+}
+.service ul{
+    margin: 30px auto;
+    width: 90%;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.service ul li{
+    display: block;
+    max-width: 100%;
+    margin: 0 0 40px 0;
+}
+.service ul li h3{
+    font-size: 30px;
+}
+.service ul li span{
+    font-size: 24px;
+}
+.service ul li span br{
+    display: block;
+    content: "";
+    margin: 5px 0;
+}
+.servicePicture img{
+    width: 300px;
+    height: auto;
+}
+#detailbuttoncolor{
+    color: #ffffff;
+    font-size: 30px;
+    background-color: #07365b;
+    display: block;
+    padding: 5px;
+    width: 210px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.News{
+    background-color: #07365b;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.News h2{
+    color: white;
+}
+.News i{
+    color: white;
+}
+#Newslist{
+    margin: 40px 0 0;
+}
+.newslistitem{
+    display: grid;
+    grid-template-rows: 10px 60px;
+    grid-template-columns: 150px 1fr;
+    font-size: 30px;
+    padding: 10px 0; /* 各項目にパディングを追加 */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newsDate{
+    color: #ffffff;
+}
+.newsDetail {
+    border-bottom: 2px solid #ffffff; /* ニュース詳細部分の下に白い枠線を追加 */
+    padding-bottom: 50px; /* 枠線とテキストの間に余白を追加 */
+}
+.newsDetail a{
+    color: #ffffff;
+}
+#detailbuttonwihte{
+    color: #000000;
+    font-size: 30px;
+    background-color: #ffffff;
+    display: block;
+    padding: 5px;
+    width: 210px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+#recruit{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+}
+#recruit h2{
+    font-size: 2.5rem;
+}
+#recruit i{
+    font-size: 30px;
+}
+.recruitDetail{
+    align-items: center;
+    width: 100%;
+    /* 真ん中にする方法が知りたい */
+}
+.recruitDetail ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1058px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.recruitDetail img{
+    width: 400px;
+    height: auto;
+}
+.recruitMessage p{
+    font-size: 30px;
+    line-height: 5px;
+}
+#aboutUs{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #07365b;
+}
+#aboutUs h2{
+    color: #ffffff;
+}
+#aboutUs i{
+    color: #ffffff;
+}
+.aboutUSmessage p{
+    color: #ffffff;
+    font-size: 30px;
+}
+#contact{
+    background-color: #ffffff;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#contact h3{
+    font-size: 30px;
+}
+.c-btn_base{
+    color: #ffffff;
+    font-size: 40px;
+    background-color: #07365b;
+    display: block;
+    padding: 5px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.c-btn_base_contactform{
+    color: #ffffff;
+    font-size: 40px;
+    background-color: #07365b;
+    display: block;
+    padding: 5px;
+    width: 430px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.footer{
+    background-color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footerMenu{
+    margin-bottom: 35px;
+    width: 100%;
+}
+.footerMenu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.footerMenu ul li{
+    font-size: 30px;
+    margin-right: 7px;
+}
+.footerMenu ul li a{
+    color: #000;
+}
+.copyright{
+    width: auto;
+    height: 120px;
+    background-image: url(picturelogo/footersakurajima.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright p{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
